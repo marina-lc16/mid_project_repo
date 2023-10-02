@@ -1,0 +1,7 @@
+-c requirements-dev.txt
+
+Numpy 
+Pandas 
+Scikit-learn 
+jupyter 
+
