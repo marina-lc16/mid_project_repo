@@ -163,6 +163,9 @@ Once the cleaned data were obtained, a new data set was created.
 
 With the new clean dataset could started working with the Data visualization, the process of graphical representation of information and data, by using visual elements like charts, graphs, and maps, and data visualization tools like Python or Tableau that provide an accessible way to see and understand patterns, trends, and outliers in data.
 
+Link to Tableau public: 
+https://public.tableau.com/app/profile/marina.llompart/viz/Mid_boot_project_final/Story1?publish=yes
+
 
 
 **Results 🚀:**
