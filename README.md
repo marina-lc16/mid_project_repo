@@ -1,8 +1,6 @@
-﻿EDA and Visualization project
+﻿**EDA and Visualization project**
 
-**DATA SCIENCE JOBS:**
-
-**SALARIES AND TYPE OF WORKS MODELS**
+**DATA SCIENCE JOBS: SALARIES AND TYPE OF WORKS MODELS**
 
 
 **Introduction:**
@@ -14,20 +12,6 @@ In this analysis, I will take my first Exploratory Data Analysis (EDA) and visua
 The "global salary index" dataset comes from the ai-jobs.net website for roles in the AI, ML, Data Science space based on internal data obtained from surveys and jobs with open salaries.
 
 This dataset is processed and updated on a weekly basis, but I'll take the dataset updated on September 29th, 2023.
-
-**Libraries used:**
-
-Pandas
-
-NumPy
-
-Seaborn
-
-Matplotlib
-
-Pycountry
-
-Pycountry-convert
 
 Data: The "global salary index" dataset comes from the ai-jobs.net website for roles in the AI, ML, Data Science space based on internal data obtained from surveys and jobs with open salaries and is processed and updated on a weekly basis, but I'll take the dataset updated on September 29th, 2023.
 
@@ -47,13 +31,17 @@ What I want to find out with this analysis is to extract the following data from
 
 - "Remote\_ratios VS location": create a visualization map to view remote ratios by job areas, year, company size and location
 
+
+
 **Dataset details:**
 
 Here we can find the detail of all the data included
 
 https://ai-jobs.net/salaries/download/
 
+
 work\_year			The year the salary was paid.
+
 
 experience\_level	The experience level in the job during the year with the following possible values:
 
@@ -65,6 +53,7 @@ experience\_level	The experience level in the job during the year with the follo
 
 **EX**	Executive-level / Director
 
+
 employment\_type		The type of employement for the role:
 
 **PT**	Part-time
@@ -75,15 +64,21 @@ employment\_type		The type of employement for the role:
 
 **FL**	Freelance
 
+
 job\_title			The role worked in during the year.
+
 
 salary				The total gross salary amount paid.
 
+
 salary\_currency	The currency of the salary paid as an ISO 4217 currency code.
+
 
 salary\_in\_usd	The salary in USD (FX rate divided by avg. USD rate of respective year) via statistical data from the BIS and central banks.
 
+
 employee\_residence	Employee's primary country of residence in during the work year as an ISO 3166 country code.
+
 
 remote\_ratio	The overall amount of work done remotely, possible values are as follows:
 
@@ -93,7 +88,9 @@ remote\_ratio	The overall amount of work done remotely, possible values are as f
 
 **100**	Fully remote (more than 80%)
 
+
 company\_location	The country of the employer's main office or contracting branch as an ISO 3166 country code.
+
 
 company\_size	The average number of people that worked for the company during the year:
 
@@ -104,13 +101,19 @@ company\_size	The average number of people that worked for the company during th
 **L**	more than 250 employees (large)
 
 
+
+
 **Exploratory Data Analysis (EDA)**
+
+
 
 **Finding all variables and understanding them:**
 
 To start my analysis, I was to get an overview of my data set. I exported and read the file on the jupyter notebook and examined its contents: size, columns and rows distributions to see the information it contained, i.e. the distribution of roles(job\_titles) and salaries (in USD) according to company size, experience levels, employee and company location or proportion of remote work ratio.
 
 To do this I used the functions pd.read, head(), shape(), info(), describe() and df.columns and I explored if the dataset had missing values and the unique values for each column.
+
+
 
 **Preprocessing: Data cleaning and reduction:**
 
@@ -120,11 +123,15 @@ The data set contains two types of variables in the columns, numerical and categ
 
 I first cleaned the numerical columns and then the categorical ones.
 
+
+
 **Cleaning numerical:**
 
 During the cleaning of the numerical columns, to make a more concrete analysis, the "salary" column was deleted and only the "salary\_in\_usd" column was left to have all the data in the same currency.
 
 In addition, during the analysis of the numerical columns, it highlighted that in the columns "job\_year" and "salary" there is an asymmetry on the left and right, respectively. That means a large difference between the job/salary numbers between 2020 and 2023, probably the data collection probably started at the end of 2020.
+
+
 
 **Cleaning categorical:**
 
@@ -150,9 +157,13 @@ All coded data were replaced by their actual meaning, and, in addition, the "job
 
 Once the cleaned data were obtained, a new data set was created.
 
+
+
 **Data visualization:**
 
 With the new clean dataset could started working with the Data visualization, the process of graphical representation of information and data, by using visual elements like charts, graphs, and maps, and data visualization tools like Python or Tableau that provide an accessible way to see and understand patterns, trends, and outliers in data.
+
+
 
 **Results:**
 
