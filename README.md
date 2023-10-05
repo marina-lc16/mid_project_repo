@@ -103,11 +103,11 @@ company\_size	The average number of people that worked for the company during th
 
 
 
-**Exploratory Data Analysis (EDA)**
+**Exploratory Data Analysis (EDA) **
 
 
 
-**Finding all variables and understanding them:**
+**Finding all variables and understanding them 🔎:**
 
 To start my analysis, I was to get an overview of my data set. I exported and read the file on the jupyter notebook and examined its contents: size, columns and rows distributions to see the information it contained, i.e. the distribution of roles(job\_titles) and salaries (in USD) according to company size, experience levels, employee and company location or proportion of remote work ratio.
 
@@ -115,7 +115,7 @@ To do this I used the functions pd.read, head(), shape(), info(), describe() and
 
 
 
-**Preprocessing: Data cleaning and reduction:**
+**Preprocessing: Data cleaning and reduction 🕵️‍♀️:**
 
 Once I got all the overall information I could start working with the data and think about what changes I could make to clean it up, transform it and ensure more meaningful consistency of certain values.
 
@@ -159,13 +159,13 @@ Once the cleaned data were obtained, a new data set was created.
 
 
 
-**Data visualization:**
+**Data visualization with Tableau 📊:** 
 
 With the new clean dataset could started working with the Data visualization, the process of graphical representation of information and data, by using visual elements like charts, graphs, and maps, and data visualization tools like Python or Tableau that provide an accessible way to see and understand patterns, trends, and outliers in data.
 
 
 
-**Results:**
+**Results 🚀:**
 
 Nowadays, data science roles are one of the most in-demand and are rapidly growing. 
 
