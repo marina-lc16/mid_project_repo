@@ -3,7 +3,7 @@
 **DATA SCIENCE JOBS: SALARIES AND TYPE OF WORKS MODELS**
 
 
-**Introduction:**
+**Introduction 📝:**
 
 In recent years, data science roles are more demanded, so it's important to understand how they are evolving in terms of positioning as job offers and their salaries.
 
@@ -15,7 +15,7 @@ This dataset is processed and updated on a weekly basis, but I'll take the datas
 
 Data: The "global salary index" dataset comes from the ai-jobs.net website for roles in the AI, ML, Data Science space based on internal data obtained from surveys and jobs with open salaries and is processed and updated on a weekly basis, but I'll take the dataset updated on September 29th, 2023.
 
-**Hypotheses:**
+**Hypotheses 💡:**
 
 What I want to find out with this analysis is to extract the following data from my data set:
 
@@ -33,7 +33,7 @@ What I want to find out with this analysis is to extract the following data from
 
 
 
-**Dataset details:**
+**Dataset details 🔎:**
 
 Here we can find the detail of all the data included
 
